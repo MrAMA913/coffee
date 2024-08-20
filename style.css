@@ -80,8 +80,7 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-
-
+#click,
 label .btn-menu,
 label .btn-close{
     display: none;
