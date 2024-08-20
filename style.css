@@ -29,6 +29,11 @@
 html{
     scroll-behavior: smooth;
 }
+
+.section-container {
+    margin: 0 auto;
+    max-width: var(--site-max-width);
+}
 header{
     position: fixed;
     top: 0;
@@ -88,19 +93,19 @@ label .btn-close{
 
 
 .hero-section{
-    background-color: var(--primary-color);
     min-height: 100vh;
+    background-color: var(--primary-color);
 }
-.hero-section .section-container{
-    padding: 200px 275px 0px ;
-}
+
 .hero-container {
+    
     display: flex;
     gap: 20px;
     padding: 20px;
     padding-top: 85px;
     align-items: center; /*! برای این که محتوا وسط قرار بگیره !*/
     justify-content: space-between;
+    min-height: calc(100vh - 85px);
 }
 .text-section h2{
     color: var(--secondary-color);
@@ -189,7 +194,38 @@ label .btn-close{
     line-height: 30px;
     text-align: center;
 }
-.about-section .section-container{
-    padding: 0 250px;
+
+
+.service-section{
+    padding: 60px 20px 120px;
+    background-color: var(--dark-color);
+    color:  var(--white-color);
+    text-align: center; /* todo: این خط باید برداشته شود */
+}
+.service-section .service-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.service-item img{
+    width: 100%;
+}
+
+.service-container .item-text{
+    text-align: center;
+    margin: 12px 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+.service-container .item-text p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.service-container .service-item{
+    width: calc(100% / 3 - 120px);
+}
