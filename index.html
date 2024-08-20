@@ -27,11 +27,11 @@
 
             <ul>
                 <li><a href="#">خانه</a></li>
-                <li><a href="#contact">ارتباط با ما</a></li>
-                <li><a href="#gallery">گالری</a></li>
-                <li><a href="#why">چرا ما ؟</a></li>
-                <li><a href="#service">خدمات ما</a></li>
                 <li><a href="#about">درباره ما</a></li>
+                <li><a href="#service">خدمات ما</a></li>
+                <li><a href="#why">چرا ما ؟</a></li>
+                <li><a href="#gallery">گالری</a></li>
+                <li><a href="#contact">ارتباط با ما</a></li>
             </ul>
 
         </nav>
@@ -122,7 +122,7 @@
         </div>
     </section>
 
-    <section class="why-section">
+    <section class="why-section" id="why">
         <h2 class="title">چرا ما ؟</h2>
         <div class="section-container">
             <div class="why-container">
@@ -130,7 +130,7 @@
                     <img src="./images/delicious.png" alt=""/>
                     <div class="item-text">
                         <h3>غذاهای</h3>
-                        <p>اعضای تیم ما با خوشحالی آماده کمک هستند. ما فراتر از انتظارها عمل می‌کنیم تا شما را خوشحال کنیم.</p>
+                        <p>با یک سفره گسترده از غذاهای خوشمزه، ما آماده‌ایم تا کام شما را راضی کنیم و شما را به یک سفر آشپزی ببریم.</p>
                     </div>
                 </div>
                 <div class="why-item">
@@ -150,5 +150,144 @@
             </div>
         </div>
     </section>
+
+    <section class="gallery-section" id="gallery">
+        <h2 class="title">گالری</h2>
+        <div class="section-container">
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="./images/gallery_1.jpg" alt=""/>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/gallery_2.jpg" alt=""/>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/gallery_3.jpg" alt=""/>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/gallery_4.jpg" alt=""/>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/gallery_5.jpg" alt=""/>
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/gallery_6.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2 class="title">ارتباط با ما</h2>
+        <div class="section-container">
+            <div class="contact-container">
+                <div class="form">
+                    <form action="">
+                        <div class="field">
+                            <label for="name">نام و نام خانوادگی</label>
+                            <input type="text" id="name" placeholder="your name" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">ایمیل</label>
+                            <input type="email" id="email" placeholder="your email" required>
+                        </div>
+                        <div class="field">
+                            <label for="phone">شماره تلفن</label>
+                            <input type="text" id="phone" placeholder="your phone number" required>
+                        </div>
+                        <div class="field">
+                            <label for="message">پیام</label>
+                            <textarea id="message" placeholder="your message" required/></textarea>
+                        </div>
+                        <button type="submit">ثبت</button>
+                    </form>
+                </div>
+                <div class="info">
+                    <div class="info-item">
+                        <i class="bx bx-current-location"></i>
+                        <div class="info-item-text">
+                            <h3>آدرس ما</h3>
+                            <p>تهران</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="bx bxs-envelope"></i>
+                        <div class="info-item-text">
+                            <h3>سوالات عمومی</h3>
+                            <p>example@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="bx bxs-phone-call"></i>
+                        <div class="info-item-text">
+                            <h3>ارتباط با ما</h3>
+                            <p>09377485488</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="bx bxs-time-five"></i>
+                        <div class="info-item-text">
+                            <h3>ساعت کاری ما</h3>
+                            <p>شنبه تا جمعه: 10:00 صبح تا 23:00 شب</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="section-container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="/">
+                        <img src="./images/coffee_logo.png" alt="logo">
+                        <h2>کافه</h2>
+                    </a>
+                </div>
+                <div class="useful-links">
+                    <h3>لینک های مفید</h3>
+                    <ul>
+                        <li><a href="#about">درباره ما</a></li>
+                        <li><a href="#service">خدمات ما</a></li>
+                        <li><a href="#why">چرا ما ؟</a></li>
+                        <li><a href="#gallery">گالری</a></li>
+                        <li><a href="#contact">ارتباط با ما</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>ارتباط</h3>
+                    <ul>
+                        <li>
+                          <i class="bx bx-current-location"></i>
+                          <span>تهران </span>
+                        </li>
+                        <li>
+                          <i class="bx bxs-phone-call"></i> <span> 92728239</span>
+                        </li>
+                        <li>
+                          <i class="bx bxs-time-five"></i>
+                          <span>شنبه تا جمعه: 10:00 صبح تا 23:00 شب</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fallow-us">
+                    <h3>ما را دنبال کنید</h3>
+                    <a href="#">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
